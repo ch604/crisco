@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name crisco-rescue)(type Legacy)(uri ${KIPRJMOD}/crisco-rescue.lib)(options "")(descr ""))
+)
