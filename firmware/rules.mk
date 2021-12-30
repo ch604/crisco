@@ -1,0 +1,17 @@
+MCU = atmega32u4
+
+BOOTLOADER = atmel-dfu
+
+MOUSEKEY_ENABLE 	= yes
+EXTRAKEY_ENABLE 	= yes
+CONSOLE_ENABLE 		= yes
+COMMAND_ENABLE 		= no
+NKRO_ENABLE		= yes
+STENO_ENABLE		= yes 		# Needed for chording
+
+OPT_DEFS += -DONLYQWERTY -DDEBUG_MATRIX
+SRC += sten.c
+LTO_ENABLE = yes
+
+OLED_ENABLE = yes
+OLED_DRIVER = SSD1306
