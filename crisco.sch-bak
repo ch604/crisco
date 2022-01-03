@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MX_Alps_Hybrids:MX-1U MX1
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX1
 U 1 1 5C3921E7
 P 4950 2000
 F 0 "MX1" H 5036 2217 60  0000 C CNN
@@ -42,7 +42,7 @@ Wire Wire Line
 NoConn ~ 4975 2125
 NoConn ~ 5075 2025
 $Comp
-L MX_Alps_Hybrids:MX-1U MX2
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX2
 U 1 1 5C392A62
 P 5550 2000
 F 0 "MX2" H 5636 2217 60  0000 C CNN
@@ -70,7 +70,7 @@ Wire Wire Line
 NoConn ~ 5575 2125
 NoConn ~ 5675 2025
 $Comp
-L MX_Alps_Hybrids:MX-1U MX3
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX3
 U 1 1 5C392C1F
 P 6150 2000
 F 0 "MX3" H 6236 2217 60  0000 C CNN
@@ -98,7 +98,7 @@ Wire Wire Line
 NoConn ~ 6175 2125
 NoConn ~ 6275 2025
 $Comp
-L MX_Alps_Hybrids:MX-1U MX11
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX11
 U 1 1 5C393299
 P 4950 2750
 F 0 "MX11" H 5036 2967 60  0000 C CNN
@@ -126,7 +126,7 @@ Wire Wire Line
 NoConn ~ 4975 2875
 NoConn ~ 5075 2775
 $Comp
-L MX_Alps_Hybrids:MX-1U MX12
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX12
 U 1 1 5C3932AB
 P 5550 2750
 F 0 "MX12" H 5636 2967 60  0000 C CNN
@@ -154,7 +154,7 @@ Wire Wire Line
 NoConn ~ 5575 2875
 NoConn ~ 5675 2775
 $Comp
-L MX_Alps_Hybrids:MX-1U MX13
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX13
 U 1 1 5C3932BD
 P 6150 2750
 F 0 "MX13" H 6236 2967 60  0000 C CNN
@@ -360,7 +360,7 @@ F 3 "" H 4475 3625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1U MX4
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX4
 U 1 1 61CC6550
 P 6750 2000
 F 0 "MX4" H 6836 2217 60  0000 C CNN
@@ -388,7 +388,7 @@ Wire Wire Line
 NoConn ~ 6775 2125
 NoConn ~ 6875 2025
 $Comp
-L MX_Alps_Hybrids:MX-1U MX14
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX14
 U 1 1 61CC6560
 P 6750 2750
 F 0 "MX14" H 6836 2967 60  0000 C CNN
@@ -423,7 +423,7 @@ Wire Wire Line
 Text GLabel 6925 1650 1    50   Input ~ 0
 col3
 $Comp
-L MX_Alps_Hybrids:MX-1U MX5
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX5
 U 1 1 61CC85CA
 P 7350 2000
 F 0 "MX5" H 7436 2217 60  0000 C CNN
@@ -451,7 +451,7 @@ Wire Wire Line
 NoConn ~ 7375 2125
 NoConn ~ 7475 2025
 $Comp
-L MX_Alps_Hybrids:MX-1U MX15
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX15
 U 1 1 61CC85DA
 P 7350 2750
 F 0 "MX15" H 7436 2967 60  0000 C CNN
@@ -488,7 +488,7 @@ Wire Wire Line
 Text GLabel 7525 1650 1    50   Input ~ 0
 col4
 $Comp
-L MX_Alps_Hybrids:MX-1U MX6
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX6
 U 1 1 61CCAAB7
 P 7950 2000
 F 0 "MX6" H 8036 2217 60  0000 C CNN
@@ -516,7 +516,7 @@ Wire Wire Line
 NoConn ~ 7975 2125
 NoConn ~ 8075 2025
 $Comp
-L MX_Alps_Hybrids:MX-1U MX16
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX16
 U 1 1 61CCAAC7
 P 7950 2750
 F 0 "MX16" H 8036 2967 60  0000 C CNN
@@ -553,7 +553,7 @@ Wire Wire Line
 Text GLabel 8125 1650 1    50   Input ~ 0
 col5
 $Comp
-L MX_Alps_Hybrids:MX-1U MX7
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX7
 U 1 1 61CCD233
 P 8550 2000
 F 0 "MX7" H 8636 2217 60  0000 C CNN
@@ -581,7 +581,7 @@ Wire Wire Line
 NoConn ~ 8575 2125
 NoConn ~ 8675 2025
 $Comp
-L MX_Alps_Hybrids:MX-1U MX17
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX17
 U 1 1 61CCD243
 P 8550 2750
 F 0 "MX17" H 8636 2967 60  0000 C CNN
@@ -618,7 +618,7 @@ Wire Wire Line
 Text GLabel 8725 1650 1    50   Input ~ 0
 col6
 $Comp
-L MX_Alps_Hybrids:MX-1U MX8
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX8
 U 1 1 61CCFD14
 P 9150 2000
 F 0 "MX8" H 9236 2217 60  0000 C CNN
@@ -646,7 +646,7 @@ Wire Wire Line
 NoConn ~ 9175 2125
 NoConn ~ 9275 2025
 $Comp
-L MX_Alps_Hybrids:MX-1U MX18
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX18
 U 1 1 61CCFD24
 P 9150 2750
 F 0 "MX18" H 9236 2967 60  0000 C CNN
@@ -683,7 +683,7 @@ Wire Wire Line
 Text GLabel 9325 1650 1    50   Input ~ 0
 col7
 $Comp
-L MX_Alps_Hybrids:MX-1U MX9
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX9
 U 1 1 61CD2C7C
 P 9750 2000
 F 0 "MX9" H 9836 2217 60  0000 C CNN
@@ -700,7 +700,7 @@ Wire Wire Line
 NoConn ~ 9775 2125
 NoConn ~ 9875 2025
 $Comp
-L MX_Alps_Hybrids:MX-1U MX19
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX19
 U 1 1 61CD2C8C
 P 9750 2750
 F 0 "MX19" H 9836 2967 60  0000 C CNN
@@ -737,7 +737,7 @@ Wire Wire Line
 Text GLabel 9925 1650 1    50   Input ~ 0
 col8
 $Comp
-L MX_Alps_Hybrids:MX-1U MX10
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX10
 U 1 1 61CD6409
 P 10350 2000
 F 0 "MX10" H 10436 2217 60  0000 C CNN
@@ -765,7 +765,7 @@ Wire Wire Line
 NoConn ~ 10375 2125
 NoConn ~ 10475 2025
 $Comp
-L MX_Alps_Hybrids:MX-1U MX20
+L crisco-rescue:MX-1U-MX_Alps_Hybrids MX20
 U 1 1 61CD6419
 P 10350 2750
 F 0 "MX20" H 10436 2967 60  0000 C CNN
@@ -865,7 +865,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 2100 4100 2100
 $Comp
-L keebio:ProMicro U1
+L crisco-rescue:ProMicro-keebio U1
 U 1 1 5C3920CC
 P 2950 2550
 F 0 "U1" H 2950 3387 60  0000 C CNN
