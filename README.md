@@ -8,7 +8,6 @@ download [the gerber](https://github.com/ch604/crisco/blob/main/gerbers/crisco-v
 
 ## BOM:
 * 1x 128x32 SSD1306 OLED display (optional)
-* 2x 4.7k resistors (needed for optional OLED display)
 * 11 LEDs worth of WS2812B 60/m RGB LED strip (optional, or 5 LEDs at 30/m)
 * 1x Arduino Pro Micro (or compatible)
 * 20x 1N4148 through-hole or 1N4007 SMD diodes (or similar)
@@ -26,7 +25,8 @@ download [the gerber](https://github.com/ch604/crisco/blob/main/gerbers/crisco-v
 * solder the OLED screen on top of the pro micro with the pins to the bottom of the board. ground will be the square pad.
 * cut and solder the LED strip to the bottom of the board. ground is the square pad, and "Din" on the strip should go to the middle pin. keep the strip in place with some more capton tape.
 * apply rubber feet to the bottom of the board to keep it from moving around. if you added the LED strip, you will need some thicker feet.
-* flash the board.
+* copy the firmware folder contents into your qmk keyboards directory under a new 'crisco' folder. if you used a 30/m strip instead of 60/m, then change config.h to reflect 5 LEDs instead of 11.
+* compile and flash the firmware.
 * show it off to your discord buddies..
 * get frustrated with the keymap...
 * put it in a drawer for a few months....
