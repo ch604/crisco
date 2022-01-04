@@ -901,12 +901,12 @@ $EndComp
 $Comp
 L power:VCC #PWR0109
 U 1 1 61CCE8B0
-P 3125 5175
-F 0 "#PWR0109" H 3125 5025 50  0001 C CNN
-F 1 "VCC" H 3142 5348 50  0000 C CNN
-F 2 "" H 3125 5175 50  0001 C CNN
-F 3 "" H 3125 5175 50  0001 C CNN
-	1    3125 5175
+P 2625 5175
+F 0 "#PWR0109" H 2625 5025 50  0001 C CNN
+F 1 "VCC" H 2642 5348 50  0000 C CNN
+F 2 "" H 2625 5175 50  0001 C CNN
+F 3 "" H 2625 5175 50  0001 C CNN
+	1    2625 5175
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -920,65 +920,15 @@ F 3 "" H 2350 5350 50  0001 C CNN
 	1    2350 5350
 	1    0    0    -1  
 $EndComp
-Text GLabel 2800 4875 2    50   Input ~ 0
+Text GLabel 2150 5150 2    50   Input ~ 0
 scl
-Text GLabel 2800 4775 2    50   Input ~ 0
+Text GLabel 2150 5050 2    50   Input ~ 0
 sda
 Wire Wire Line
-	3125 5250 3125 5175
+	2625 5250 2625 5175
 Wire Wire Line
 	2150 5350 2350 5350
 NoConn ~ 3650 2200
-$Comp
-L Device:R_US R1
-U 1 1 61D4AEF9
-P 2450 5100
-F 0 "R1" H 2518 5146 50  0000 L CNN
-F 1 "R_US" H 2518 5055 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2490 5090 50  0001 C CNN
-F 3 "~" H 2450 5100 50  0001 C CNN
-	1    2450 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R2
-U 1 1 61D4BA80
-P 2750 5100
-F 0 "R2" H 2818 5146 50  0000 L CNN
-F 1 "R_US" H 2818 5055 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2790 5090 50  0001 C CNN
-F 3 "~" H 2750 5100 50  0001 C CNN
-	1    2750 5100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2750 5250 3125 5250
-Wire Wire Line
-	2750 5250 2450 5250
-Connection ~ 2750 5250
-Wire Wire Line
-	2450 5250 2150 5250
-Connection ~ 2450 5250
-Wire Wire Line
-	2325 5150 2150 5150
-Wire Wire Line
-	2275 5050 2275 4775
-Wire Wire Line
-	2275 4775 2750 4775
-Wire Wire Line
-	2325 4950 2450 4950
-Wire Wire Line
-	2450 4950 2450 4875
-Wire Wire Line
-	2450 4875 2800 4875
-Wire Wire Line
-	2325 4950 2325 5150
-Connection ~ 2450 4950
-Wire Wire Line
-	2750 4775 2750 4950
-Connection ~ 2750 4775
-Wire Wire Line
-	2750 4775 2800 4775
-Wire Wire Line
-	2150 5050 2275 5050
+	2150 5250 2625 5250
 $EndSCHEMATC
