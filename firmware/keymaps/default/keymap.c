@@ -181,3 +181,17 @@ uint32_t processQwerty(bool lookup) {
 
 // Don't f with this, thanks.
 size_t keymapsCount  = sizeof(keymaps)/sizeof(keymaps[0]);
+
+#ifdef OLED_ENABLE
+
+void oled_task_user(void) {
+	oled_write_P(PSTR("Layer: "), false);
+	switch (get_highest_layer(layer_state)) {
+		case BASE:
+			oled_write_ln_P(PSTR("Default"), false);
+			break;
+		default:
+			oled_write_ln_P(PSTR("UNDEF"), false);
+	}
+}
+#endif

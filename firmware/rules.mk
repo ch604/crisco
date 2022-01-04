@@ -1,16 +1,20 @@
 MCU = atmega32u4
 
-BOOTLOADER = atmel-dfu
+BOOTLOADER = caterina
 
 MOUSEKEY_ENABLE 	= yes
 EXTRAKEY_ENABLE 	= yes
-CONSOLE_ENABLE 		= yes
+CONSOLE_ENABLE 		= no
 COMMAND_ENABLE 		= no
+GRAVE_ESC_ENABLE	= no
+SPACE_CADET_ENABLE	= no
+MUSIC_ENABLE		= no
 NKRO_ENABLE		= yes
 STENO_ENABLE		= yes 		# Needed for chording
 
 OPT_DEFS += -DONLYQWERTY -DDEBUG_MATRIX
 SRC += sten.c
+EXTRAFLAGS += -flto
 LTO_ENABLE = yes
 
 OLED_ENABLE = yes

@@ -7,7 +7,7 @@ download [the gerber](https://github.com/ch604/crisco/blob/main/gerbers/crisco-v
 BOM:
 1x 128x32 SSD1306 OLED display (optional)
 2x 4.7k resistors (needed for optional OLED display)
-11 LEDs worth of WS2812B 60/m RGB LED strip (optional)
+11 LEDs worth of WS2812B 60/m RGB LED strip (optional, or 5 LEDs at 30/m)
 1x Arduino Pro Micro (or compatible)
 20x 1N4148 through-hole or 1N4007 SMD diodes (or similar)
 20x 5-pin MX switches
