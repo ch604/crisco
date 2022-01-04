@@ -184,14 +184,40 @@ size_t keymapsCount  = sizeof(keymaps)/sizeof(keymaps[0]);
 
 #ifdef OLED_ENABLE
 
+oled_rotation_t oled_init_user(oled_rotation_t rotation) {
+    return OLED_ROTATION_270;  // flips the display 270 degrees
+}
+
 void oled_task_user(void) {
 	oled_write_P(PSTR("Layer: "), false);
 	switch (get_highest_layer(layer_state)) {
 		case BASE:
 			oled_write_ln_P(PSTR("Default"), false);
 			break;
+		case GAME:
+			oled_write_ln_P(PSTR("Gaming"), false);
+			break;
 		default:
 			oled_write_ln_P(PSTR("UNDEF"), false);
+	}
+
+	oled_write_P(PSTR("\nChord: "), false);
+	switch (cChord) {
+		case MEDIA:
+			oled_write_ln_P(PSTR("Media"), false);
+			break;
+		case FUNCT:
+			oled_write_ln_P(PSTR("Function"), false);
+			break;
+		case MOVE:
+			oled_write_ln_P(PSTR("Arrows"), false);
+			break;
+		case NUMA:
+		case NUMB:
+			oled_write_ln_P(PSTR("Numbers"), false);
+			break;
+		default:
+			oled_write_ln_P(PSTR("No Chord"), false);
 	}
 }
 #endif
