@@ -1,4 +1,4 @@
-![Crisco](https://raw.githubusercontent.com/ch604/crisco/main/crisco-v0.2.png)
+![Crisco](https://raw.githubusercontent.com/ch604/crisco/main/crisco-v0.3.png)
 
 Crisco is a 20% chorded keyboard inspired by the butterstick, originally created by [Germ](https://github.com/germ) at [gboards.ca](https://gboards.ca). The Crisco has a greater saturated fat content and is therefore bigger than it's cousin, being promicro-based instead of SMD, and MX switch spaced. But, it boasts LED strip support, and an OLED 128x32 display.
 
