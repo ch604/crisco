@@ -2097,7 +2097,7 @@
     )
   )
 
-  (gr_text "CRISCO v0.1" (at 225.425 104.775) (layer F.SilkS)
+  (gr_text "CRISCO v0.2" (at 225.425 104.775) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_arc (start 233.045 69.215) (end 233.68 69.215) (angle -90) (layer Edge.Cuts) (width 0.15))
