@@ -1,6 +1,6 @@
 ![Crisco](https://raw.githubusercontent.com/ch604/crisco/main/crisco.png)
 
-Crisco is a 20% chorded keyboard inspired by the butterstick, originally created by [Germ](https://github.com/germ) at [gboards.ca](gboards.ca). The Crisco has a greater saturated fat content and is therefore bigger than it's cousin, being promicro-based instead of SMD, and MX switch spaced. But, it boasts LED strip support, and an OLED 128x32 display.
+Crisco is a 20% chorded keyboard inspired by the butterstick, originally created by [Germ](https://github.com/germ) at [gboards.ca](https://gboards.ca). The Crisco has a greater saturated fat content and is therefore bigger than it's cousin, being promicro-based instead of SMD, and MX switch spaced. But, it boasts LED strip support, and an OLED 128x32 display.
 
 Butterstick's open source firmware in the qmk repo was used to help create firmware for the Crisco. Thanks also to the [cookpad-pad repo](https://github.com/cookpad/cookpad-pad/tree/master), which jump started the PCB design.
 
