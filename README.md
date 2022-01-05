@@ -4,7 +4,7 @@ Crisco is a 20% chorded keyboard inspired by the butterstick, originally created
 
 Butterstick's open source firmware in the qmk repo was used to help create firmware for the Crisco. Thanks also to the [cookpad-pad repo](https://github.com/cookpad/cookpad-pad/tree/master), which jump started the PCB design.
 
-Download [the latest gerber](https://github.com/ch604/crisco/blob/main/gerbers/crisco-v0.2-gerbers.zip?raw=true)
+Download [the latest gerber](https://github.com/ch604/crisco/blob/main/gerbers/crisco-v0.3-gerbers.zip?raw=true)
 
 ## BOM:
 * 1x Arduino Pro Micro (or compatible)
