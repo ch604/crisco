@@ -1,4 +1,4 @@
-![Crisco](https://raw.githubusercontent.com/ch604/crisco/main/crisco-v0.2.png)
+![Crisco](https://raw.githubusercontent.com/ch604/crisco/main/crisco-v0.3.png)
 
 Crisco is a 20% chorded keyboard inspired by the butterstick, originally created by [Germ](https://github.com/germ) at [gboards.ca](https://gboards.ca). The Crisco has a greater saturated fat content and is therefore bigger than it's cousin, being promicro-based instead of SMD, and MX switch spaced. But, it boasts LED strip support, and an OLED 128x32 display.
 
@@ -9,8 +9,8 @@ Download [the latest gerber](https://github.com/ch604/crisco/blob/main/gerbers/c
 ## BOM:
 * 1x Arduino Pro Micro (or compatible)
 * 20x 1N4148 or 1N4007 through-hole or SMD diodes (or similar)
-* 20x 5-pin MX switches
-* 20x MX keycaps
+* 20x 5-pin MX/Choc switches
+* 20x MX/Choc keycaps
 * 6x 8x2mm rubber feet (or similar)
 * 1x B3U-1000P reset switch (optional, or similar; I've used a 2x3x4mm switch with mild success)
 * capton tape or electrical tape (optional for the next two components)
