@@ -34,3 +34,7 @@ Download [the latest gerber](https://github.com/ch604/crisco/blob/main/gerbers/c
 * Put it in a drawer for a few months....
 * Sell it on /r/mechmarket.....
 * Repeat!
+
+## HOW DO I TYPE ON THIS THING?
+
+The default keymap is identical to the [original butterstick keymap](https://qmk.fm/keyboards/butterstick/).
