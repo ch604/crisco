@@ -5,8 +5,8 @@
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x0604
 #define DEVICE_VER      0x0001
-#define MANUFACTURER	ch604
-#define PRODUCT		Crisco
+#define MANUFACTURER	"ch604"
+#define PRODUCT		"Crisco"
 #define VERSION		"0.1"
 
 #define DEBOUNCE 5
