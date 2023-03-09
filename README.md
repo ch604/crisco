@@ -37,4 +37,4 @@ Download [the latest gerber](https://github.com/ch604/crisco/blob/main/gerbers/c
 
 ## HOW DO I TYPE ON THIS THING?
 
-The default keymap is identical to the [original butterstick keymap](https://qmk.fm/keyboards/butterstick/).
+The default keymap is more or less identical to the [original butterstick keymap](https://qmk.fm/keyboards/butterstick/). The keymap doesnt indicate, but backspace is "vbnm" chorded. I reccomend checking out the keymap file, though its keynames are inherited from steno machines: https://github.com/ch604/crisco/blob/main/firmware/keymaps/default/keymap.c
