@@ -188,7 +188,7 @@ oled_rotation_t oled_init_user(oled_rotation_t rotation) {
     return OLED_ROTATION_270;  // flips the display 270 degrees
 }
 
-void oled_task_user(void) {
+bool oled_task_user(void) {
 	oled_write_P(PSTR("Layer: "), false);
 	switch (get_highest_layer(layer_state)) {
 		case BASE:
@@ -219,5 +219,6 @@ void oled_task_user(void) {
 		default:
 			oled_write_ln_P(PSTR("No Chord"), false);
 	}
+return false;
 }
 #endif
